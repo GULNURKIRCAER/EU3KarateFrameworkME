@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae4e4d20-d4e3-4544-9287-5721b7781dd3" name="Default Changelist" comment="" />
+    <list default="true" id="ae4e4d20-d4e3-4544-9287-5721b7781dd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/ApiTest1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/ApiTest1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/AssertionInKarate.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/AssertionInKarate.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/FirstKarateTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/FirstKarateTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/ParametersTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/ParametersTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/SpartanWithJava.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/SpartanWithJava.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -25,11 +37,31 @@
     </option>
   </component>
   <component name="ProjectId" id="1lKWsuTl5Mh6Uf5U9lXiXYOhzvF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Gherkin" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="FeatureRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU3KarateFrameworkME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FeatureRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FeatureRunner" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,5 +73,39 @@
       <updated>1607346474866</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="294" key="Github.ShareDialog" timestamp="1607347103819">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="461" y="294" key="Github.ShareDialog/0.23.1280.726@0.23.1280.726" timestamp="1607347103819" />
+    <state x="356" y="99" key="Github.UntrackedFilesDialog" timestamp="1607347111133">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="356" y="99" key="Github.UntrackedFilesDialog/0.23.1280.726@0.23.1280.726" timestamp="1607347111133" />
+    <state width="1238" height="217" key="GridCell.Tab.0.bottom" timestamp="1607424956052">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1238" height="217" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1607424956052" />
+    <state width="1238" height="217" key="GridCell.Tab.0.center" timestamp="1607424956051">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1238" height="217" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1607424956051" />
+    <state width="1238" height="217" key="GridCell.Tab.0.left" timestamp="1607424956050">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1238" height="217" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1607424956050" />
+    <state width="1238" height="217" key="GridCell.Tab.0.right" timestamp="1607424956051">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1238" height="217" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1607424956051" />
+    <state x="141" y="25" key="SettingsEditor" timestamp="1607366036303">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="141" y="25" key="SettingsEditor/0.23.1280.726@0.23.1280.726" timestamp="1607366036303" />
+    <state x="339" y="149" width="602" height="474" key="find.popup" timestamp="1607424632235">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="339" y="149" width="602" height="474" key="find.popup/0.23.1280.726@0.23.1280.726" timestamp="1607424632235" />
   </component>
 </project>

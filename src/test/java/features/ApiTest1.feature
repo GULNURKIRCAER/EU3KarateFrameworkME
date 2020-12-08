@@ -1,6 +1,5 @@
 Feature: exchange rate api tests
 
-
   Scenario: basic test with status code validation
     Given url 'https://api.exchangeratesapi.io/latest'
     When method GET
@@ -10,6 +9,7 @@ Feature: exchange rate api tests
     Given url 'https://api.exchangeratesapi.io/2010-01-12'
     When method get
     Then status 200
+
 
   Scenario: header verification
     Given url 'https://api.exchangeratesapi.io/2010-01-12'
@@ -22,7 +22,6 @@ Feature: exchange rate api tests
     # and == 'header value'
     And match header Date == '#present'
     #this equals to headers().hasHeaderWithName("headername") in restassured
-
 
 
   Scenario: json body verification
