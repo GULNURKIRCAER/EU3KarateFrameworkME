@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae4e4d20-d4e3-4544-9287-5721b7781dd3" name="Default Changelist" comment="new">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ParallelRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/campuses.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/users.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/BookItAuth.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/BookItTests.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/DataDrivenTests.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/SpartanWithJava.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/SpartanWithJava.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607425601378</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new">
+      <created>1607460385326</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607460385326</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new">
+      <created>1607460408470</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607460408470</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,10 +153,10 @@
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="141" y="25" key="SettingsEditor/0.23.1280.726@0.23.1280.726" timestamp="1607366036303" />
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1607425603228">
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1607460410775">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1607425603228" />
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1607460410775" />
     <state x="197" y="123" width="886" height="620" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1607457309607">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
