@@ -12,7 +12,6 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>com.intuit.karate</groupId>
@@ -31,9 +30,18 @@
             <artifactId>javafaker</artifactId>
             <version>1.0.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.10</version>
+        </dependency>
+        <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
+            <version>3.8.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
-
-    <!-- BUNUN SAYESINDE EXTRA RESOURSE FILE GEREKMIYOR.JAVA FILE DA YAPABILECEGIZ -->
     <build>
         <testResources>
             <testResource>
@@ -68,5 +76,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

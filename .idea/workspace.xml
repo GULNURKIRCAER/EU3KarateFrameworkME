@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae4e4d20-d4e3-4544-9287-5721b7781dd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ae4e4d20-d4e3-4544-9287-5721b7781dd3" name="Default Changelist" comment="new">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ParallelRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/campuses.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/BookItAuth.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/BookItTests.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/DataDrivenTests.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DBUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/ApiTest1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/ApiTest1.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/AssertionInKarate.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/AssertionInKarate.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/FirstKarateTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/FirstKarateTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/ParametersTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/ParametersTest.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/SpartanWithJava.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/SpartanWithJava.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +49,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Gherkin" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ParallelRunner.testParallel">
     <configuration name="FeatureRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU3KarateFrameworkME" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,8 +59,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParallelRunner.testParallel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU3KarateFrameworkME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ParallelRunner" />
+      <option name="METHOD_NAME" value="testParallel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParallelRunner.testParallel" />
         <item itemvalue="JUnit.FeatureRunner" />
       </list>
     </recent_temporary>
@@ -72,7 +85,19 @@
       <option name="presentableId" value="Default" />
       <updated>1607346474866</updated>
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1607425601378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607425601378</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="294" key="Github.ShareDialog" timestamp="1607347103819">
@@ -83,29 +108,57 @@
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="356" y="99" key="Github.UntrackedFilesDialog/0.23.1280.726@0.23.1280.726" timestamp="1607347111133" />
-    <state width="1238" height="217" key="GridCell.Tab.0.bottom" timestamp="1607424956052">
+    <state width="1238" height="153" key="GridCell.Tab.0.bottom" timestamp="1607460359967">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="217" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1607424956052" />
-    <state width="1238" height="217" key="GridCell.Tab.0.center" timestamp="1607424956051">
+    <state width="1238" height="153" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1607460359967" />
+    <state width="1238" height="230" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1607457523365" />
+    <state width="1238" height="153" key="GridCell.Tab.0.center" timestamp="1607460359966">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="217" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1607424956051" />
-    <state width="1238" height="217" key="GridCell.Tab.0.left" timestamp="1607424956050">
+    <state width="1238" height="153" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1607460359966" />
+    <state width="1238" height="230" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1607457523364" />
+    <state width="1238" height="153" key="GridCell.Tab.0.left" timestamp="1607460359966">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="217" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1607424956050" />
-    <state width="1238" height="217" key="GridCell.Tab.0.right" timestamp="1607424956051">
+    <state width="1238" height="153" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1607460359966" />
+    <state width="1238" height="230" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1607457523364" />
+    <state width="1238" height="153" key="GridCell.Tab.0.right" timestamp="1607460359967">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="217" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1607424956051" />
+    <state width="1238" height="153" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1607460359967" />
+    <state width="1238" height="230" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1607457523365" />
+    <state width="1238" height="230" key="GridCell.Tab.1.bottom" timestamp="1607457523366">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1238" height="230" key="GridCell.Tab.1.bottom/0.23.1280.728@0.23.1280.728" timestamp="1607457523366" />
+    <state width="1238" height="230" key="GridCell.Tab.1.center" timestamp="1607457523366">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1238" height="230" key="GridCell.Tab.1.center/0.23.1280.728@0.23.1280.728" timestamp="1607457523366" />
+    <state width="1238" height="230" key="GridCell.Tab.1.left" timestamp="1607457523365">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1238" height="230" key="GridCell.Tab.1.left/0.23.1280.728@0.23.1280.728" timestamp="1607457523365" />
+    <state width="1238" height="230" key="GridCell.Tab.1.right" timestamp="1607457523366">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1238" height="230" key="GridCell.Tab.1.right/0.23.1280.728@0.23.1280.728" timestamp="1607457523366" />
     <state x="141" y="25" key="SettingsEditor" timestamp="1607366036303">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="141" y="25" key="SettingsEditor/0.23.1280.726@0.23.1280.726" timestamp="1607366036303" />
-    <state x="339" y="149" width="602" height="474" key="find.popup" timestamp="1607424632235">
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1607425603228">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="339" y="149" width="602" height="474" key="find.popup/0.23.1280.726@0.23.1280.726" timestamp="1607424632235" />
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1607425603228" />
+    <state x="197" y="123" width="886" height="620" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1607457309607">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state x="197" y="123" width="886" height="620" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1280.728@0.23.1280.728" timestamp="1607457309607" />
+    <state x="339" y="149" width="602" height="474" key="find.popup" timestamp="1607455756621">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="339" y="149" width="602" height="474" key="find.popup/0.23.1280.726@0.23.1280.726" timestamp="1607455756621" />
   </component>
 </project>
