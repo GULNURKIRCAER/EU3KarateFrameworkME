@@ -20,7 +20,6 @@ Feature: Data driven tests
       | apainb6@google.co.jp        | rosettalightollers |
       | fbawmeb7@studiopress.com    | sherilyngohn       |
 
-
   Scenario Outline: get token for user <email>
     Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/'
     And path 'sign'
