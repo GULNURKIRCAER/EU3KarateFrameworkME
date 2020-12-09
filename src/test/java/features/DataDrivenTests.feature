@@ -1,4 +1,4 @@
-@ignore
+
 Feature: Data driven tests
 
 
@@ -61,7 +61,7 @@ Feature: Data driven tests
     And match response.lastName == dbResult.lastname
     And match response.role == dbResult.role
 
-
+  @ignore
   Scenario Outline: get user information verification(Database vs API) <email>
     * def DBUtils = Java.type('utilities.DBUtils')
     * def query = "select id,firstname,lastname,role from users where email = '<email>'"
